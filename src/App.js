@@ -5,7 +5,7 @@ import TutorialHeader from './components/TutorialHeader';
 
 import { Route, Switch } from 'react-router-dom';
 import LandingPage from './content/LandingPage';
-import RepoPage from './content/RepoPage';
+import Industry4Page from './content/Industry4Page';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <Content>
           <Switch>
             <Route exact path="/" component={LandingPage} />
-            <Route path="/industry4.0" component={RepoPage} />
+            <Route path="/industry4.0" component={Industry4Page} />
           </Switch>
         </Content>
       </div>
